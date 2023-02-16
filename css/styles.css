@@ -1,0 +1,132 @@
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+}
+.navbar{
+    padding-bottom: 2.5rem;
+}
+.nav-item{
+    padding: 0 1rem;
+}
+.iphoneimg{
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+.download-btn{
+    margin: 2rem 1rem 2rem 0rem;
+}
+
+/* features */
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.img-fet{
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    color: #ef8172;
+}
+.img-fet:hover{
+    color: #ff4c68;
+}
+.p-fet{
+    font-family: "Montserrat";
+    color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    padding: 1rem;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align:center;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    text-align: center;
+    padding: 7% 7% 5%;
+}
+.pricing-tabs{
+    margin-top: 3rem;
+}
+.pricing-columns{
+    padding: 2% 3%;
+}
+
+/* media control breakpoints */
+@media (max-width: 1028px){
+    .iphoneimg{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/* cta */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%;
+    line-height: 1.5;
+
+}
+.h3-cta{
+    font-size: 3.5rem;
+}
+
+/* footer */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    font-size: small;
+}
+.footer-icon{
+    margin: 0rem 5px;
+    color: #000;
+}
+.footer-para{
+    padding-top: 10px;
+}
